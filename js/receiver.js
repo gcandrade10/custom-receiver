@@ -15,7 +15,7 @@ castDebugLogger.showDebugLogs(true);
 castDebugLogger.loggerLevelByEvents = {'cast.framework.events.category.CORE': cast.framework.LoggerLevel.INFO,'cast.framework.events.EventType.MEDIA_STATUS': cast.framework.LoggerLevel.DEBUG}
 
 // Set verbosity level for custom tags.
-castDebugLogger.loggerLevelByTags = {LOG_TAG: cast.framework.LoggerLevel.DEBUG};
+// castDebugLogger.loggerLevelByTags = {LOG_TAG: cast.framework.LoggerLevel.DEBUG};
 
 function makeRequest (url,payload) {
 	var xhr = new XMLHttpRequest();
